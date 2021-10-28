@@ -5,10 +5,10 @@ const Weather = (props) => {
 	<div>
 	{ props.city &&
 	<div>
-		<p>Країна: {this.props.city}, {this.props.country}</p>
-		<p>Температура:{this.props.temp}</p>
-		<p>Початок дня:{this.props.sunrise}</p>
-		<p>Сонце встає:{this.props.sunset}</p>
+		<p>Країна: {props.city}, {props.country}</p>
+		<p>Температура:{props.temp}</p>
+		<p>Початок дня:{props.sunrise}</p>
+		<p>Сонце встає:{props.sunset}</p>
 	</div>
 	}
 	<p>{ props.error}</p>

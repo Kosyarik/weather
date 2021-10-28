@@ -30,13 +30,7 @@ class App extends React.Component {
 			let date = new Date();
 			date.setTime(sunset);
 			let sunset_date = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-			/*
-			//сонце сідає
-			let sunrise = data.sys.sunrise;
-			let dateSun = new Date();
-			dateSun.setTime(sunrise);
-			let sunriseDate = dateSun.getHours() + ":" + dateSun.getMinutes() + ":" + dateSun.getSeconds();
-*/
+
 			this.setState ({
 				temp: data.main.temp,
 				city: data.name,

@@ -5,7 +5,7 @@ class FormGeoLocation extends React.Component {
 		return (
 			<form onSubmit={this.props.weatherLocation}>
 				
-				<button>отримати по локації</button>
+				<button className = "button_location">отримати по локації</button>
 			</form>
 		);
 	}

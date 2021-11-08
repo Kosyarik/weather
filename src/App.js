@@ -100,9 +100,9 @@ class App extends React.Component {
 	}
 	render() {
 		return (
-		<div>
+		<div className = "container">
 			<FormGeoLocation weatherLocation = {this.getWeather} />
-			<p></p>
+			
 			<FormWeather weatherMethot = {this.gettingWeather} />
 			<Weather 
 			temp={this.state.temp}
